@@ -24,6 +24,6 @@ This tool provides a clean browser interface for repeatedly executing any cURL c
 
 
 
-▶️ Command: node index.js
+▶️ Command: npm start
 
 The web app will launch in your default browser.
