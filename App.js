@@ -78,8 +78,8 @@ app.get('/', (req, res) => {
   <meta charset="UTF-8">
   <title>cURL Loop Launcher (Node)</title>
   <style>
-    body { font-family: sans-serif; margin: 20px; }
-    textarea { width: 100%; height: 150px; }
+    body { font-family: sans-serif; margin: 20px; background-color:black; color:white; }
+    textarea { width: 100%; height: 150px; background-color:black; color:white; }
     input[type="number"] { width: 80px; }
     button { padding: 6px 12px; margin-right: 8px; }
   </style>
@@ -130,7 +130,7 @@ app.post('/start', (req, res) => {
     return res.json({ success: false, message: 'Invalid curl or minutes.' });
   }
 
-  const intervalMs = minutes * 60 * 1000;
+  const intervalMs = minutes * 1 * 1000;
 
   // Clear old loop if exists
   if (currentInterval) {

@@ -16,6 +16,7 @@
   "bugs": {
     "url": "https://github.com/AzerPilavdzic/loop-cURL-request-GUI-node-js/issues"
   },
+  "type": "module",
   "homepage": "https://github.com/AzerPilavdzic/loop-cURL-request-GUI-node-js#readme",
   "dependencies": {
     "axios": "^1.13.2",
